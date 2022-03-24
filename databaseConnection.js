@@ -1,4 +1,4 @@
-const mysql = require('mysql2');
+// const mysql = require('mysql2');
 
 const MongoClient = require("mongodb").MongoClient;
 const is_heroku = process.env.IS_HEROKU || false;
